@@ -8,3 +8,4 @@ matplotlib
 seaborn 
 duckdb
 python-multipart
+python-dotenv
