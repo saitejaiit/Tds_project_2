@@ -12,7 +12,9 @@ from fastapi import FastAPI, UploadFile, File
 from fastapi.responses import JSONResponse, PlainTextResponse
 from starlette.middleware.cors import CORSMiddleware
 from groq import Groq
+from dotenv import load_dotenv
 
+load_dotenv()
 # ----------------------------
 # Groq client (LLM interface)
 # ----------------------------
